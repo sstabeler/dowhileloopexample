@@ -16,5 +16,24 @@ namespace dowhileloopexample
         {
             InitializeComponent();
         }
+
+        private void btnCalculate_MouseClick(object sender, MouseEventArgs e)
+        {
+            const double dblAccuracy = 1.0e-3;
+            double dblRoot, dblOld, dblNew;
+
+            dblNew = 1.0;
+
+            dblRoot = Convert.ToDouble(txtInput.Text);
+
+            do
+            {
+                dblOld = dblNew;
+
+                dblNew = ((dblRoot/dblOld) +dblOld)/2.0;
+            } while(Math.Abs(dblOld-dblNew) > dblAccuracy);
+            txtActual.Text = dblNew.ToString();
+            txtBuiltIn.Text = (Math.Sqrt(dblRoot)).ToString();
+        }
     }
 }

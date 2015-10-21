@@ -68,6 +68,7 @@
             this.btnCalculate.TabIndex = 3;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.MouseClick += new System.Windows.Forms.MouseEventHandler(this.btnCalculate_MouseClick);
             // 
             // lblActual
             // 
