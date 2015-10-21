@@ -41,23 +41,23 @@
             // 
             this.txtInput.Location = new System.Drawing.Point(133, 36);
             this.txtInput.Name = "txtInput";
-            this.txtInput.Size = new System.Drawing.Size(100, 20);
+            this.txtInput.Size = new System.Drawing.Size(226, 20);
             this.txtInput.TabIndex = 0;
             // 
             // txtBuiltIn
             // 
-            this.txtBuiltIn.Location = new System.Drawing.Point(343, 36);
+            this.txtBuiltIn.Location = new System.Drawing.Point(136, 91);
             this.txtBuiltIn.Name = "txtBuiltIn";
             this.txtBuiltIn.ReadOnly = true;
-            this.txtBuiltIn.Size = new System.Drawing.Size(100, 20);
+            this.txtBuiltIn.Size = new System.Drawing.Size(223, 20);
             this.txtBuiltIn.TabIndex = 1;
             // 
             // txtActual
             // 
-            this.txtActual.Location = new System.Drawing.Point(512, 35);
+            this.txtActual.Location = new System.Drawing.Point(136, 164);
             this.txtActual.Name = "txtActual";
             this.txtActual.ReadOnly = true;
-            this.txtActual.Size = new System.Drawing.Size(100, 20);
+            this.txtActual.Size = new System.Drawing.Size(223, 20);
             this.txtActual.TabIndex = 2;
             // 
             // btnCalculate
@@ -73,7 +73,7 @@
             // lblActual
             // 
             this.lblActual.AutoSize = true;
-            this.lblActual.Location = new System.Drawing.Point(343, 13);
+            this.lblActual.Location = new System.Drawing.Point(130, 75);
             this.lblActual.Name = "lblActual";
             this.lblActual.Size = new System.Drawing.Size(37, 13);
             this.lblActual.TabIndex = 4;
@@ -82,7 +82,7 @@
             // lblbuiltin
             // 
             this.lblbuiltin.AutoSize = true;
-            this.lblbuiltin.Location = new System.Drawing.Point(512, 12);
+            this.lblbuiltin.Location = new System.Drawing.Point(133, 131);
             this.lblbuiltin.Name = "lblbuiltin";
             this.lblbuiltin.Size = new System.Drawing.Size(73, 13);
             this.lblbuiltin.TabIndex = 5;
